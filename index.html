@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Website for the Serious Sam Done Quick speedrunning community." />
+        <meta name="theme-color" content="#272b30" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Serious Sam Done Quick</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/slate/bootstrap.min.css" />
+        <link rel="manifest" href="ssdq.webmanifest" />
+    </head>
+    <body>
+        <main class="container">
+            <h1 class="text-center"><img height="48" src="/logo.svg" alt /> Serious&nbsp;Sam Done&nbsp;Quick</h1>
+
+            <div class="text-center">
+                <div class="list-group list-group-flush d-inline-block text-center mb-5">
+                    <a class="list-group-item list-group-item-action" href="https://discord.gg/0vKwJa1xQoCpw7vY" rel="noopener" target="_blank"><img class="ml-1" height="32" src="discord.svg" alt="Discord" /></a>
+                    <a class="list-group-item list-group-item-action" href="https://www.speedrun.com/serious_sam" rel="noopener" target="_blank"><img height="32" src="speedrun_com.png" alt="speedrun.com" /></a>
+                    <a class="list-group-item list-group-item-action" href="legacy.html" rel="noopener" target="_blank">Legacy site (2007&ndash;2012)</a>
+                </div>
+            </div>
+        </main>
+        <footer class="container-fluid font-small text-center border-top pt-3 pb-3">
+            <div>&copy; SSDQ 2018&ndash;2023</div>
+            <div>Logo by <a href="https://www.deviantart.com/balthassar/">Balthazar</a>.</div>
+        </footer>
+
+        <link rel="stylesheet" href="ssdq.css" />
+        <link rel="stylesheet" href="bfe.css" />
+        <script>
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('service_worker.js', {scope: './'});
+            }
+        </script>
+    </body>
+</html>
+
