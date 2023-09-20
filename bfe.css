@@ -14,12 +14,7 @@ a:hover {
 
 @font-face {
     font-family: 'komika_axisregular';
-    src: url('KOMIKAX_-webfont.eot');
-    src: url('KOMIKAX_-webfont.eot?#iefix') format('embedded-opentype'),
-         url('KOMIKAX_-webfont.woff2') format('woff2'),
-         url('KOMIKAX_-webfont.woff') format('woff'),
-         url('KOMIKAX_-webfont.ttf') format('truetype'),
-         url('KOMIKAX_-webfont.svg#komika_axisregular') format('svg');
+    src: url('KOMIKAX_-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
